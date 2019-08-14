@@ -1,0 +1,29 @@
+This dataset contains the following json files:
+1. CamRest676_annotated.json: the new annotated dataset for generative ellipsis and co-reference resolution research for task-oriented dialogue.
+2. CamRest676.json: the original woz dialogue dataset, which contains the conversion from users and wizards, as well as a set of coarse labels for each user turn.
+3. CamRestDB.json: the Cambridge restaurant database file, containing restaurants in the Cambridge UK area and a set of attributes.
+4. CamRestOTGY.json: specific all the values the three informable slots can take.
+
+
+If you use this new annotated dataset, please cite our paper:
+"GECOR: An End-to-End Generative Ellipsis and Co-reference Resolution Model for Task-Oriented Dialogue" 
+(Jun Quan, Deyi Xiong, Bonnie Webber and Changjian Hu. EMNLP, 2019)
+
+
+
+The original CamRest676 dataset was used in the following papers, if you use the dataset please cite them:
+@article{wenN2N16,
+       Author = {Wen, Tsung-Hsien and Vandyke, David and Mrk{\v{s}}i\'c, Nikola and Ga{\v{s}}i\'c, Milica and M. Rojas-Barahona, Lina and Su, Pei-Hao and Ultes, Stefan and Young, Steve},
+       title={A Network-based End-to-End Trainable Task-oriented Dialogue System},
+       journal={arXiv preprint: 1604.04562},
+       year={2016},
+       month={April}
+}
+
+@article{wencond16,
+       Author = {Wen, Tsung-Hsien and Ga{\v{s}}i\'c, Milica and Mrk{\v{s}}i\'c, Nikola and M. Rojas-Barahona, Lina and Su, Pei-Hao and Ultes, Stefan and Vandyke, David and Young, Steve},
+       title={Conditional Generation and Snapshot Learning in Neural Dialogue Systems},
+       journal={arXiv preprint: 1606.03352},
+       year={2016},
+       month={June}
+}
