@@ -24,3 +24,40 @@ Annotation cases for user utterances can be summarized into the following three 
 In CamRest676_annotated.json, the key 'transcript' represent the origin user utterance, and the keys 'transcript_complete', 'transcript_with_ellipsis', 'transcript_with_coreference' respectively represent the complete version, ellipsis version, coreference version of the user utterance after our annotation.  
 
 
+## Code
+GECOR Model and Task-Oriented Dialogue with GECOR.
+
+### Requirements
+python 3.6
+numpy==1.14.3
+nltk==3.2.1
+torch==0.3.1
+```
+pip install -r requirements.txt
+```
+Download pretrained Glove word vectors and place them in PROJECT_ROOT/data/glove.
+
+
+### GECOR Model
+We will upload soon.
+
+#### Train
+
+#### Test
+
+### Task-Oriented Dialogue with GECOR
+We will upload soon.
+
+#### Train
+
+#### Test
+
+## References
+If you use the source codes or datasets included here in your work, please cite the corresponding papers. The bibtex are listed below:
+```
+"GECOR: An End-to-End Generative Ellipsis and Co-reference Resolution Model for Task-Oriented Dialogue" 
+(Jun Quan, Deyi Xiong, Bonnie Webber and Changjian Hu.  EMNLP, 2019)
+
+We will soon upload the bibtex.
+
+```
