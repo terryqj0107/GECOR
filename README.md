@@ -28,29 +28,31 @@ In CamRest676_annotated.json, the key 'transcript' represent the origin user utt
 GECOR Model and Task-Oriented Dialogue with GECOR.
 
 ### Requirements
-python 3.6
-numpy==1.14.3
-nltk==3.2.1
-torch==0.3.1
+python 3.6 <br>
+numpy==1.14.3 <br>
+nltk==3.2.1 <br>
+torch==0.3.1 <br>
 ```
 pip install -r requirements.txt
 ```
-Download pretrained Glove word vectors and place them in PROJECT_ROOT/data/glove.
+Download pretrained Glove word vectors and place them in PROJECT_ROOT/data/glove. 
 
 
-### GECOR Model
-We will upload soon.
+### Train
+```
+python model.py -mode train -model gecor-camrest
+```
+To train and test with different version of data (ellipsis/ co-reference/ mixed): <br>
+please modify the code in config.py and reader.py
 
-#### Train
+To switch between the GECOR1 mode and GECOR2 mode: <br>
+please modify the code in GECOR_model.py
 
-#### Test
+### Test
+```
+python model.py -mode test -model gecor-camrest
+```
 
-### Task-Oriented Dialogue with GECOR
-We will upload soon.
-
-#### Train
-
-#### Test
 
 ## References
 If you use the source codes or datasets included here in your work, please cite the corresponding papers. The bibtex are listed below:
