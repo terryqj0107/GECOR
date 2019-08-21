@@ -23,6 +23,11 @@ Annotation cases for user utterances can be summarized into the following three 
 *  If the utterance itself is complete and it is not suitable to create an ellipsis or anaphor version, we just do nothing.
 In CamRest676_annotated.json, the key 'transcript' represent the origin user utterance, and the keys 'transcript_complete', 'transcript_with_ellipsis', 'transcript_with_coreference' respectively represent the complete version, ellipsis version, coreference version of the user utterance after our annotation.  
 
+#### Data License
+We make the new annotated dataset under the following licenses:
+*  Attribution 4.0 International (CC BY 4.0) license. 
+(License URL: https://creativecommons.org/licenses/by/4.0/)
+
 
 ## Code
 GECOR Model and Task-Oriented Dialogue with GECOR.
