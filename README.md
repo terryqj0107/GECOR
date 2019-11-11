@@ -62,9 +62,12 @@ python model.py -mode test -model gecor-camrest
 ## References
 If you use the source codes or datasets included here in your work, please cite the corresponding papers. The bibtex are listed below:
 ```
-"GECOR: An End-to-End Generative Ellipsis and Co-reference Resolution Model for Task-Oriented Dialogue" 
-(Jun Quan, Deyi Xiong, Bonnie Webber and Changjian Hu.  EMNLP, 2019)
-
-We will soon upload the bibtex.
+@inproceedings{quan2019gecor,
+  title={GECOR: An End-to-End Generative Ellipsis and Co-reference Resolution Model for Task-Oriented Dialogue},
+  author={Quan, Jun and Xiong, Deyi and Webber, Bonnie and Hu, Changjian},
+  booktitle={Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)},
+  pages={4539--4549},
+  year={2019}
+}
 
 ```
